@@ -1,3 +1,0 @@
-Make command:
-g++ -o [executablefilename] magic8ball.cpp
-./[executablefilename]
