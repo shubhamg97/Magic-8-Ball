@@ -5,11 +5,11 @@ This is a simple fortune teller based on the popular Magic 8 Ball. The applicati
 ## Instructions for use
 
 ### Terminal
-1) Open your command-line interpreter of choice (`cmd` or `terminal`)
-2) First make the file with the following operations:
-⋅⋅⋅i) Type in `g++ -o exe Magic8Ball.cpp` to create an executable
-⋅⋅⋅ii) Now type in `./exe` to run the file on your CLI
-3) Ask away!
+1. Open your command-line interpreter of choice (`cmd` or `terminal`)
+2. First make the file with the following operations:
+⋅⋅⋅* Type in `g++ -o exe Magic8Ball.cpp` to create an executable
+⋅⋅⋅* Now type in `./exe` to run the file on your CLI
+3. Ask away!
 
 ### IDE
 1) Open the code through an IDE (eg Visual Studio)
