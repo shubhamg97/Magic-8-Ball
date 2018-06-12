@@ -31,80 +31,88 @@ int main() {
 	string str18 = "My sources say no";
 	string str19 = "Outlook not so good";
 
-	// Welcome to program and input query
-	cout << "Hello and Welcome to this Magic 8 Ball program\nSimply ask your query and you shall receive your answer" << endl;
-	cin >> query;
+	while (1) {
+		// Welcome to program and input query
+		cout << "\nSimply ask your query and you shall receive your answer. Type 'q' to quit" << endl;
+		cin >> query;
 
-	// Generate a random number between 1 & 20 (0-19)
-	srand(time(NULL));
-	int randomnumber = rand() % 20;
+		if (query == "q") {
+			break;
+		}
 
-	// Pause for effect
-	cout << "Hmmm...Let me think" << endl;
-	sleep(2.5);
+		else {
+			// Generate a random number between 1 & 20 (0-19)
+			srand(time(NULL));
+			int randomnumber = rand() % 20;
 
-	// According to the random number, print output
-	switch(randomnumber) {
-		case 0:
-			cout << str0 << endl;
-			break;
-		case 1:
-			cout << str1 << endl;
-			break;
-		case 2:
-			cout << str2 << endl;
-			break;
-		case 3:
-			cout << str3 << endl;
-			break;
-		case 4:
-			cout << str4 << endl;
-			break;
-		case 5:
-			cout << str5 << endl;
-			break;
-		case 6:
-			cout << str6 << endl;
-			break;
-		case 7:
-			cout << str7 << endl;
-			break;
-		case 8:
-			cout << str8 << endl;
-			break;
-		case 9:
-			cout << str9 << endl;
-			break;
-		case 10:
-			cout << str10 << endl;
-			break;
-		case 11:
-			cout << str11 << endl;
-			break;
-		case 12:
-			cout << str12 << endl;
-			break;
-		case 13:
-			cout << str13 << endl;
-			break;
-		case 14:
-			cout << str14 << endl;
-			break;
-		case 15:
-			cout << str15 << endl;
-			break;
-		case 16:
-			cout << str16 << endl;
-			break;
-		case 17:
-			cout << str17 << endl;
-			break;
-		case 18:
-			cout << str18 << endl;
-			break;
-		case 19:
-			cout << str19 << endl;
-			break;
+			// Pause for effect
+			cout << "Hmmm...Let me think" << endl;
+			sleep(2.5);
+
+			// According to the random number, print output
+			switch(randomnumber) {
+				case 0:
+					cout << str0 << endl;
+					break;
+				case 1:
+					cout << str1 << endl;
+					break;
+				case 2:
+					cout << str2 << endl;
+					break;
+				case 3:
+					cout << str3 << endl;
+					break;
+				case 4:
+					cout << str4 << endl;
+					break;
+				case 5:
+					cout << str5 << endl;
+					break;
+				case 6:
+					cout << str6 << endl;
+					break;
+				case 7:
+					cout << str7 << endl;
+					break;
+				case 8:
+					cout << str8 << endl;
+					break;
+				case 9:
+					cout << str9 << endl;
+					break;
+				case 10:
+					cout << str10 << endl;
+					break;
+				case 11:
+					cout << str11 << endl;
+					break;
+				case 12:
+					cout << str12 << endl;
+					break;
+				case 13:
+					cout << str13 << endl;
+					break;
+				case 14:
+					cout << str14 << endl;
+					break;
+				case 15:
+					cout << str15 << endl;
+					break;
+				case 16:
+					cout << str16 << endl;
+					break;
+				case 17:
+					cout << str17 << endl;
+					break;
+				case 18:
+					cout << str18 << endl;
+					break;
+				case 19:
+					cout << str19 << endl;
+					break;
+			}
+		}
 	}
 	return 0;
 }
